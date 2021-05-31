@@ -7,3 +7,7 @@ def fizzbuzz(x):
         return "Buzz"
     else:
         return x
+
+
+for i in range(100):
+    print(fizzbuzz(i+1))
