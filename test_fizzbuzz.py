@@ -8,6 +8,9 @@ class TestCase(unittest.TestCase):
     def test_fb2(self):
         for i in [5, 10, 20]:
             self.assertEqual(fizzbuzz.fizzbuzz(i), "Buzz")
+    def test_fb3(self):
+        for i in [15, 30, 45, 90]:
+            self.assertEqual(fizzbuzz.fizzbuzz(i), "FizzBuzz")
 
 if __name__ == '__main__':
     unittest.main()
